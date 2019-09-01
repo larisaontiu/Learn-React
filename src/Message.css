@@ -1,0 +1,25 @@
+.Message {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px 120px;
+    
+}
+
+.Message.invert {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.Message.large {
+    font-size: 22px;
+}
+
+.Message.bold {
+    font-weight: bold;
+}
+
+.Message.largepadding {
+    padding-top: 100px; 
+}

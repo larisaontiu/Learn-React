@@ -1,0 +1,26 @@
+.header {
+    background-color: black;
+    text-align: right;
+    padding: 30px 120px;
+    position: relative;
+
+}
+
+.logo {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+
+}
+
+.toolbar{
+    float: right;
+}
+
+.header:after {
+    clear: both;
+    display: block;
+    content: ' ';
+}
+
