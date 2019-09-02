@@ -1,21 +1,24 @@
 .header {
-    background-color: black;
+    background-color: white;
     text-align: right;
     padding: 30px 120px;
     position: relative;
-
+    height: 84px;
+    box-sizing: border-box;
 }
 
 .logo {
-    color: white;
-    font-size: 18px;
+    font-family: 'roboto';
     font-weight: bold;
+    font-size: 24px;
     float: left;
+  
 
 }
 
 .toolbar{
     float: right;
+   
 }
 
 .header:after {

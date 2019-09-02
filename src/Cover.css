@@ -1,0 +1,33 @@
+.cover {
+    background-color: beige;
+    height: calc(100vh - 84px);
+    background-size: cover;
+    text-align: center
+}
+
+.cover .title {
+    font-size: 54px;
+    font-weight: bold;
+    padding-top: 18%;
+    font-family: 'roboto';
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: black;
+    margin-top: 0;
+    
+}
+
+.cover .subtitle {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'roboto';
+    padding-top: 0px;
+    margin-top: 10px;
+    
+    
+}
+
+.cover .button.bannerButton {
+    padding: 14px 30px;
+    display: inline-block;
+}

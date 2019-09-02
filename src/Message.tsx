@@ -12,7 +12,8 @@ interface MessageProps {
 
 const Message: FC<MessageProps> = (props:MessageProps) => (
     <div className={classnames(
-        "Message", props.invert ? "invert" : false, 
+        "Message", 
+        props.invert ? "invert" : false, 
         props.size === 'large' ? 'large' : false, 
         props.bold ? "bold" : false,
         props.paddinglarge ? "largepadding" : false
