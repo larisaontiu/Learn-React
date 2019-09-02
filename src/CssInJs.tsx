@@ -1,28 +1,27 @@
 import React, {FC} from 'react'
 import {css} from 'linaria'
+import {styled} from 'linaria/react'
 
-const styles = {
-    default: css`
-        height: 100vh;
-        background-color: red;
+const Text = styled.p`
+    color: black;
+`
 
-        &:hover {
-            background-color: green;
-        }
-    `,
+const Container = styled.div`
+    height: 100vh;
+    background-color: red;
 
-    text: css`
-        color: black;
-    `
-    
-}
+    &:hover {
+        background-color: green;
+    }
+`
+
 
 const CssInJs: FC = () => (
-    <div className={styles.default}>
-        <p className={styles.text}>
+    <Container>
+        <Text>
             Hello world
-        </p>
-    </div>
+        </Text>
+    </Container>
 )
 
 export default CssInJs
