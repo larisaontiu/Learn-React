@@ -5,6 +5,7 @@ import Header from './Header'
 import Cover from './Cover'
 import Project from './Project'
 import activityImage from './assets/activity.svg'
+import CssInJs from './CssInJs'
 
 
 export default () => (
@@ -15,5 +16,6 @@ export default () => (
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         Duis aute irure dolor in reprehenderit.
         </Project>
+        <CssInJs />
     </div> 
 )

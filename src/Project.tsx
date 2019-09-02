@@ -15,7 +15,15 @@ const Project: FC<ProjectProps> = (props: ProjectProps) => (
         </div>
         <h1>{props.title}</h1>
         <p className='text'>{props.children}</p>
-        <div className='projectSection'></div>
+        
+            <ul className="flex-container">
+                <li className="flex-item"></li>
+                <li className="flex-item"></li>
+                <li className="flex-item"></li>
+                <li className="flex-item"></li>
+            </ul>
+
+        
     </div>    
 )
 
