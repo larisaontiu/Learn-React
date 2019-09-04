@@ -1,8 +1,8 @@
 import React, { FC, ReactNode } from 'react'
-import './ProjectList.css'
+import './ServiceList.css'
 import Button from './Button'
 
-interface ProjectListProps {
+interface ServiceListProps {
     imageUrl: string
     imageAlt: string
     title: string
@@ -10,26 +10,26 @@ interface ProjectListProps {
     children: ReactNode
 }
 
-const ProjectList: FC<ProjectListProps> = (props: ProjectListProps) => (
-    <div className="projectList">
-        <div className="projectListIcon" >
+const ServiceList: FC<ServiceListProps> = (props: ServiceListProps) => (
+    <div className="serviceList">
+        <div className="serviceListIcon" >
             <img src={props.imageUrl} alt={props.imageAlt} />
         </div>
         <h2>{props.title}</h2>
-        <p className='text'>{props.description}</p>
-        <div className="projectItems">
-            <ul className="projectContainer">
+        <p className='text1'>{props.description}</p>
+        <div className="serviceItems">
+            <ul className="serviceContainer">
                 {React.Children.map(props.children, (child, index) => (
-                    <li key={index} className="projectItem">
+                    <li key={index} className="serviceItem">
                         {child}
                     </li>
                 ))}
             </ul>
         </div>
         
-        <Button banner={true} href="#">Load More</Button>
+        
         
     </div>    
 )
 
-export default ProjectList
+export default ServiceList

@@ -8,7 +8,7 @@ const Cover: FC = () => (
         <h1 className="title">A DESIGNER'S PORTFOLIO</h1>
         <p className="subtitle">creative, dedicated, perfectionist</p>
         
-        <Button banner={true} href="#">Read More</Button>
+        <Button banner={true} href="#">Check Projects</Button>
     </div>
 )
 export default Cover 
